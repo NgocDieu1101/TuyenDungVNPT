@@ -106,7 +106,7 @@ body{
 
 .head1 img {
   width: 124px;
-  
+
 }
 #menu ul {
   display: flex;
@@ -144,9 +144,12 @@ body{
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 5%;
-  font-weight: 200;
+  font-weight: 600;
+  background-color: cornflowerblue;
+  transition: 0.3s all ease-in-out;
   
 }
 .gioithieu a:hover {
-  color:antiquewhite;
+  background-color: #ade8f4;
+  color: #0096c7;
 }
