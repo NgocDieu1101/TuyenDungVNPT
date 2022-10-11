@@ -236,3 +236,136 @@ body{
   width: 1170px;
   margin: 0 auto;
 }
+.banner .video {
+  float: left;
+    width: 670px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    height: 336px;
+    cursor: pointer;
+}
+#imgVideoHome {
+  cursor: pointer;
+}
+.hide {
+  display: none!important;
+}
+.background-video {
+  width: 670px;
+  height: 188px;
+  background: url(../../asset/img/video_vnpt.png) no-repeat;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.baner .slider-container {
+  display: flex;
+  /* position: relative;
+  border-radius: 5px;
+  overflow: hidden; */
+}
+.slider1 {
+  position: relative;
+}
+.slider1 >.item {
+  width: 100%;
+
+}
+.banner .slide-container .slider1-img {
+  width: 100%;
+  height: 400px;
+  padding: 20px 20px;
+  justify-content:space-around;
+}
+.banner .slide-container .slider1-caption a h3 {
+  line-height: 30px;
+  float: right;
+  text-decoration: none;
+}
+
+.banner .box-banner .slide-container .slider1-caption {
+  position: absolute;
+  bottom: 0px;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}  
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 0 24px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.footer {
+  height: 200px;
+  background:  #1361F1 ;
+  /* margin-top: 0; */
+}
+.content.footer {
+  margin: 0;
+}
+.logo img {
+  width: 100px;
+}
+.footer .span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.list {
+  justify-content: center;
+}
+.list p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px;
+  display:flex;
+}
+
+.list a {
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.connect {
+  float:right;
+}
+.connect p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px;
+  display:flex;
+}
+
+.connect a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 30px;
+  float: left;
+  margin-right: 25px;
+  line-height: 36px;
+  text-align: center;
+}
