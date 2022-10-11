@@ -175,9 +175,13 @@ body{
 }
 .search-btn {
   padding: 20px 0;
+  position: relative
 }
 .search-btn a {
   color: #333;
+  position: absolute;
+    right: 10px;
+    top: 30px;
 }
 .search1 {
   width: 470px;
