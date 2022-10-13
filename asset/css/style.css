@@ -353,11 +353,10 @@ body{
   text-decoration: none;
 }
 .footer {
-  width: 100%;
-  height: auto;
-  padding: 40px 24px;
   background:  linear-gradient(180deg, #28328E 0%, #1361F1 100%) ;
+  padding: 40px 24px;
 }
+
 
 .footer .list-address{
   display:flex;
@@ -387,28 +386,22 @@ body{
   width: 150px;
 }
 .footer .span {
-  font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 28px;
   display: flex;
-  align-items: center;
   text-transform: uppercase;
   color: #fff;
   margin-top: 15px;
   text-decoration: none;
 }
-.list {
-  justify-content: center;
-}
+
 .list p {
-  font-weight: 300;
+  font-weight: 250;
   font-size: 16px;
   line-height: 24px;
-  align-items: center;
   color: #fff;
   margin-bottom: 10px;
-  display:flex;
+  display: flex;
 }
 
 .list a {
@@ -417,6 +410,7 @@ body{
   align-items: center;
   margin-bottom: 10px;
   text-decoration: none;
+  display:flex ;
 }
 .connect {
 
