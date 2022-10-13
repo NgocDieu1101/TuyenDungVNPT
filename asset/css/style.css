@@ -123,8 +123,24 @@ body{
 #menu ul li a {
   text-decoration: none;
   color: #fff;
-  
+  position:relative;
 }
+
+#menu ul li a:before{
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #caf0f8;
+  transition: 0.3s all ease-in-out;
+}
+#menu ul li:hover a:before{
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+
 .head3 {
   font-size: 30px;
   color: #fff;
@@ -415,8 +431,16 @@ body{
   text-decoration: none;
   display:flex ;
 }
+.list-address i{
+  margin-right: 10px
+}
 .list-icon {
   display: flex;
+}
+.list-icon a:hover{
+  color :#1374F6;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .connect {
 
@@ -469,4 +493,88 @@ body{
   width: unset !important;
   max-width: unset !important;
 
+}
+
+/* ITEM CHOICE */
+.list-choice{
+  padding: 50px 0 50px
+}
+.list-choice .headline h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 600;
+  text-align:center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.list-item-choice{
+  display:flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+.item-choice{
+  width: 32%;
+  padding: 0 0 120px;
+}
+
+.item-choice img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item-choice{
+  position: relative;
+}
+
+.item-choice-content{
+  position: absolute;
+  box-shadow: 0px 2px 12px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  z-index: 2;
+  bottom: 15px;
+  width: 90%;
+}
+
+.item-choice-link{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.item-choice-title{
+  color:#333333;
+  font-size:20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.item-choice-text{
+  font-size: 15px;
+  line-height:20px;
+  color: #626466;
+  margin-bottom: 10px;
+}
+
+.item-choice-icon{
+  background-color:#1374f6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  transform: translateX(0px);
+  transition: 0.5s all ease-in-out;
+}
+
+.item-choice-link:hover .item-choice-icon{
+  color: #1374F6;
+  background-color: #Ffffff;
+  border: 1px solid #1374F6;
+  transform: translateX(10px);
+  transition: 0.5s all ease-in-out;
 }
