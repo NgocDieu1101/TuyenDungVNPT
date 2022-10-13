@@ -244,11 +244,53 @@ body{
 }
  .slider {
   width: 40%;
+  display:flex;
+  position: relative;
+ }
+
+ .slider .slick-prev{
+  position: absolute;
+  z-index:3;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+ }
+ .slider .slick-next{
+  position: absolute;
+  right: 0;
+  z-index:3;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+ }
+
+ .slider .slick-next i,
+ .slider .slick-prev i{
+  font-size: 20px;
+  color: #ccc;
+ }
+ .slider .slick-next,
+ .slider .slick-prev{
+  position:absolute;
+  top:50%;
+  padding: 10px 8px 10px 8px;
+  cursor: pointer;
+  background-color:#fff;
+  transition: all 0.3s ease-in-out
+ }
+
+ .slider .slick-next:hover i,
+ .slider .slick-prev:hover i{
+  color: #fff;
+ }
+
+ .slider .slick-next:hover,
+ .slider .slick-prev:hover{
+  background-color:#ccc;
  }
 
  .video iframe{
-  overflow: hidden;
-  opacity: 0;
+  display: none !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
  }
 
 .banner .video {
