@@ -373,15 +373,6 @@ body{
   padding: 40px 24px;
 }
 
-
-.footer .list-address{
-  display:flex;
-  flex-direction: column;
-}
-
-.list-address a{
-  color: #fff;
-}
 .footer .container{
   display:flex;
 }
@@ -394,13 +385,20 @@ body{
   width: 39%;
 }
 
+.footer .list-address{
+  display:flex;
+  flex-direction: column;
+}
+
+.list-address a{
+  color: #fff;
+}
+
+
 .footer .connect{
   width: 16%;
 }
 
-.content.footer {
-  margin: 0;
-}
 .logo img {
   width: 150px;
 }
@@ -442,9 +440,7 @@ body{
   background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.connect {
 
-}
 .connect p {
   font-weight: 400;
   font-size: 20px;
