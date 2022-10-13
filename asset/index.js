@@ -10,3 +10,25 @@ const splide = new Splide( '.splide', {
     },
   } );
 splide.mount( window.splide.Extensions );
+
+$(document).on('ready', function () {
+  $('.slider').slick({
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows:true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+      nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+  });
+  var videoBanner = $('.background-video')
+  var videoIframe = $('#videoHome')
+  videoBanner.on('click', ()=> {
+    if(videoBanner){
+      videoBanner.addClass('hidden');
+      videoIframe.addClass('show');
+    }
+  })
+});
