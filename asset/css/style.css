@@ -574,3 +574,96 @@ body{
   transform: translateX(10px);
   transition: 0.5s all ease-in-out;
 }
+
+
+/* VIEC LAM */
+.jobs  {
+  padding-bottom: 30px;
+}
+
+.container {
+
+}
+
+.list-job {
+
+}
+.item-job {
+  display: flex;
+  border: 1px solid #ccc;
+}
+.item-image-job {
+  width: 10%;
+  display: flex;
+}
+
+.item-image-job img {
+  width: 50%;
+  margin: 30px;
+}
+.item-job-description {
+  width: 70%;
+}
+.item-job-time {
+  width: 15%;
+  font-size: 18px;
+  color: black;
+  margin: 15px 0px;
+  background: #e0f5d7;
+  color: #449626;
+}
+
+.item-job-time {
+  text-align: center;
+}
+.item-job-title {
+  margin: 15px 0px;
+}
+
+.item-job-title h2{
+  font-weight: 600;
+}
+.item-job-address {
+  display: flex;
+  margin-bottom: 15px;
+  color: #8c8c8c;
+}
+.item-job-location {
+  display: flex;
+  background: whitesmoke;
+  margin-right: 15px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+}
+
+.item-job-country {
+  display: flex;
+  background: whitesmoke;
+  margin-right: 15px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+}
+.item-job-timeline {
+  display: flex;
+  display: flex;
+  background: whitesmoke;
+  margin-right: 15px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+}
+.item-job-view {
+  margin: 15px;
+  vertical-align: middle; /* can giua */
+  display: flex;
+  align-items: center;
+
+}
+.item-job-view a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  background: #e0f5d7;
+  color: #449626;
+  margin: 15px;
+  padding: 15px 20px;
+  vertical-align: middle;
+  line-height: 20px;
+  max-height: 50px;
+}
