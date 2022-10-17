@@ -582,10 +582,6 @@ body{
   padding-bottom: 30px;
 }
 
-.container {
-
-}
-
 .list-job {
   margin: 5px 10px;
 }
@@ -702,6 +698,80 @@ body{
   border-radius: 5%;
 }
 
-/* .item-job-view a:hover {
-  background-color: #b7e4c7;
-} */
+
+
+/* LIÊN HỆ */
+
+
+.lienhe {
+  padding: 50px 0px 0px;
+  width: 100%;
+}
+.lienhe-detail {
+  margin-top: 10px;
+}
+.lienhe .lienhe-title {
+  position: relative;
+}
+.lienhe-title-bottom {
+  height: 3px;
+  width: 20%;
+    background: linear-gradient(90deg, #28328E 0%, #1361F1 100%);
+}
+.lienhe .lienhe-title h2{
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 26px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.lienhe-content {
+  margin-top: 30px;
+}
+.lienhe-map {
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.lienhe-map .bando {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  max-width: 400px;
+
+}
+
+.lienhe-form-contact {
+  padding: 50px;
+  width: 50%;
+}
+.form-contact {
+  margin-bottom: 20px;
+  width: 50%;
+  display: flex;
+  max-width: 400px;
+
+}
+.form-contact .form-control {
+  font-size: 16px;
+  background-color:#Ffffff ;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.254);; */
+  border-radius: 3px;
+  max-width: 400px;
+
+}
+.lienhe-form-contact .form-contact:hover {
+  /* background-color:coral; */
+}
+
+
+
+
+
+
+
+
+
