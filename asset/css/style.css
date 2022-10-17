@@ -595,6 +595,7 @@ body{
 
 .item-job:hover  {
   transform: scaleX(1.01);
+  transition: 0.3s all ease-in-out;
 }
 .item-job:hover .item-job-view a {
   background-color: #99d98c;
@@ -738,7 +739,6 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
   width: 50%;
-  max-width: 400px;
 
 }
 
@@ -748,7 +748,7 @@ body{
 }
 .form-contact {
   margin-bottom: 20px;
-  width: 50%;
+  width: 100%;
   display: flex;
   max-width: 400px;
 
@@ -761,7 +761,7 @@ body{
   /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.254);; */
   border-radius: 3px;
   max-width: 400px;
-
+  width: 100%;
 }
 /* .lienhe-form-contact .form-contact:hover {
   /* background-color:coral; */
