@@ -182,7 +182,7 @@ body{
 }
 .title {
   display:flex;
-  padding: 20px 0;
+  padding: 30px 0;
   justify-content: center;
 
 }
@@ -190,7 +190,8 @@ body{
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
-  color: #333;
+  color: steelblue;
+  
   
 }
 .search-btn {
@@ -650,7 +651,7 @@ body{
 .item-job-address {
   display: flex;
   margin-bottom: 15px;
-  color: #8c8c8c;
+  color: darkslateblue;
 }
 .item-job-location {
   display: flex;
@@ -661,7 +662,7 @@ body{
 }
 .item-job-location i {
   margin-right: 10px;
-  color:#0096c7;
+  color:#c7008f;
 }
 
 .item-job-country {
@@ -674,7 +675,7 @@ body{
 
 .item-job-country i {
   margin-right: 10px;
-  color:#99d98c;
+  color:#8c90d9e6;
 }
 
 .item-job-timeline {
@@ -688,7 +689,7 @@ body{
 
 .item-job-timeline i {
   margin-right: 10px;
-  color:brown;
+  color:rgb(42, 165, 140);
 }
 .item-job-view {
   margin: 15px;
@@ -753,13 +754,13 @@ body{
 }
 
 .item-job .show-parent{
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top:25px;
+  padding-bottom:25px;
 }
 
 .show-parent,
 .show-sub{
-  max-height: 500px;
+  max-height: 900px;
   overflow:visible;
   transition: all 0.3s ease-in-out;
 }
@@ -777,25 +778,26 @@ body{
 
 
 .lienhe {
-  padding: 50px 0px 0px;
+  padding: 30px 0px 0px;
   width: 100%;
+  /* border: 1px solid #ccc; */
 }
 .lienhe-detail {
-  margin-top: 10px;
+  padding: 10px;
+  margin: 3px;
 }
 .lienhe .lienhe-title {
   position: relative;
 }
 .lienhe-title-bottom {
   height: 3px;
-  width: 20%;
-    background: linear-gradient(90deg, #28328E 0%, #1361F1 100%);
+  width: 22%;
+  background: linear-gradient(90deg, #28328E 0%, #1361F1 100%);
 }
 .lienhe .lienhe-title h2{
   font-family: Open Sans;
-  font-weight: 600;
   font-size: 26px;
-  color: #333333;
+  color: steelblue;
   margin-bottom: 10px;
 }
 .lienhe-content {
@@ -823,6 +825,7 @@ body{
   width: 100%;
   display: flex;
   max-width: 400px;
+  line-height: 25px;;
 
 }
 .form-contact .form-control {
@@ -830,19 +833,56 @@ body{
   background-color:#Ffffff ;
   padding: 20px;
   border: 1px solid #ccc;
-  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.254);; */
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.089);
   border-radius: 3px;
   max-width: 400px;
   width: 100%;
 }
-/* .lienhe-form-contact .form-contact:hover {
-  /* background-color:coral; */
-/* } */
+.form-contact .form-control:hover {
+  
+}
 
+.btn {
+  background:#1374F6;
+  color:white;
+  border: 1px solid #ccc;
+  border-radius:3px;
+  width: 50%;
+  height: 45px;
+  margin-top:10px;
+}
 
+.btn:hover {
+  background-color: #ade8f4;
+  color: #0096c7;
+}
 
+.lienhe-banner {
+  top: 395px;
+  right: 0;
+  position: absolute;
+}
+.lienhe-banner .banner img{
+  width: 100%;
+}
 
+/* GIỚI THIỆU */
+.gioithieu {
+  width: 100%;
+}
+.gt h2 {
+  margin-top: 20px; 
+  color:cornflowerblue;
+  font-size: 26px;
+}
 
+.gt-content {
+  width: 100%;
+}
+p {
+  margin: 15px 0;
+  font-size: 18px;
+}
 
 
 
