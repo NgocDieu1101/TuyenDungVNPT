@@ -34,7 +34,8 @@ $(document).on('ready', function () {
     var btnSub = itemID.find('#btn-open-sub')
     var hiddenSub = 'hidden-sub'
     var showSub = 'show-sub'
-    var itemSubChild = id.find('.item-job-child-list-1')
+    var itemSubChild = itemID.find('.item-job-child-list-1')
+    console.log(itemSubChild)
     btnSub.on('click', () => {
       if(itemSubChild.hasClass('hidden-sub')){
         itemSubChild.addClass(showSub)
