@@ -1,31 +1,14 @@
 // Hai nút icon chuyển đổi hình ảnh
 $(document).on('ready', function () {
-  var subMoTa = $('#mota')
-  var subYeuCau = $('#yeucau')
+  var subMoTaClass = $('.mota')
+  var subYeuCauClass = $('.yeucau')
   var jobID1 = $('#job1')
   var jobID2 = $('#job2')
   var jobID3 = $('#job3')
   var jobID4 = $('#job4')
   var jobID5 = $('#job5')
   var jobID6 = $('#job6')
-  function openSubItemJob(id,jobId) {
-    var itemID = jobId.find(id)
-    var btnSub = itemID.find('#btn-open-sub')
-    var hiddenSub = 'hidden-sub'
-    var showSub = 'show-sub'
-    var itemSubChild = id.find('.item-job-child-list-1')
-    btnSub.on('click', () => {
-      if(itemSubChild.hasClass('hidden-sub')){
-        itemSubChild.addClass(showSub)
-        btnSub.addClass('rotateUp')
-        itemSubChild.removeClass(hiddenSub)
-      } else {
-        itemSubChild.removeClass(showSub)
-        btnSub.removeClass('rotateUp')
-        itemSubChild.addClass(hiddenSub)
-      }
-    })
-  }
+ 
   function openSubItemParent(idp) {
     var btnSubParent = idp.find('#btn-detail')
     var hiddenSubParent = 'hidden-parent'
@@ -46,10 +29,37 @@ $(document).on('ready', function () {
     })
   }
 
-  openSubItemJob(subMoTa,jobID1)
-  openSubItemJob(subMoTa,jobID6)
-  openSubItemJob(subYeuCau,jobID1)
-  openSubItemJob(subYeuCau,jobID6)
+  function openSubItemJob(id,jobId) {
+    var itemID = jobId.find(id)
+    var btnSub = itemID.find('#btn-open-sub')
+    var hiddenSub = 'hidden-sub'
+    var showSub = 'show-sub'
+    var itemSubChild = id.find('.item-job-child-list-1')
+    btnSub.on('click', () => {
+      if(itemSubChild.hasClass('hidden-sub')){
+        itemSubChild.addClass(showSub)
+        btnSub.addClass('rotateUp')
+        itemSubChild.removeClass(hiddenSub)
+      } else {
+        itemSubChild.removeClass(showSub)
+        btnSub.removeClass('rotateUp')
+        itemSubChild.addClass(hiddenSub)
+      }
+    })
+  }
+
+  openSubItemJob(subMoTaClass,jobID1)
+  openSubItemJob(subMoTaClass,jobID2)
+  openSubItemJob(subMoTaClass,jobID3)
+  openSubItemJob(subMoTaClass,jobID4)
+  openSubItemJob(subMoTaClass,jobID5)
+  openSubItemJob(subMoTaClass,jobID6)
+  openSubItemJob(subYeuCauClass,jobID1)
+  openSubItemJob(subYeuCauClass,jobID2)
+  openSubItemJob(subYeuCauClass,jobID3)
+  openSubItemJob(subYeuCauClass,jobID4)
+  openSubItemJob(subYeuCauClass,jobID5)
+  openSubItemJob(subYeuCauClass,jobID6)
   openSubItemParent(jobID1)
   openSubItemParent(jobID2)
   openSubItemParent(jobID3)
