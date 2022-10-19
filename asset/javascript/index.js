@@ -8,7 +8,7 @@ const splide = new Splide( '.splide', {
     pagination: false,
     perPage: 3,
     autoScroll: {
-      speed: 1,
+    speed: 1,
     },
   } );
 splide.mount( window.splide.Extensions );
