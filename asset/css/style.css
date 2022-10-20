@@ -9,7 +9,7 @@ html{
 
 
 body{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -787,7 +787,7 @@ body{
 .show-sub{
   height: auto;
   overflow:visible;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .rotateUp#btn-open-sub{
@@ -963,6 +963,10 @@ p {
 .cv {
   width: 100%;
 }
+
+.cv .title-colors{
+  color: #ef233c
+}
 .introducation {
   width: 100%;
   border: 1px solid #fff5f5;
@@ -980,30 +984,38 @@ p {
   /* margin-top: 50px; */
 }
 .home-left {
-  width: 66%;
-  margin: 27px;
-  margin-top: 80px;
-
+  width: 50%;
+  margin:auto;
+  font-size: 20px;
+  line-height: 22px;
 }
 .home-left ul li {
   margin-bottom: 20px;
-  font-size: 16px;
 }
 .home-right {
-  width: 34%;
+  width: 50%;
   margin: 1px;
   display: contents;
   font-size: 16px;
 }
 .home-right img {
-  width: 30%;
+  width: 100%;
+  max-width: 390px;
   margin-right: 0px;
+  margin-left: auto;
 }
 .target {
+  padding: 50px 0;
   width: 100%;
   border: 1px solid #fff5f5;
   text-align: center;
   background-color:#fff;
+  font-size: 20px;
+}
+
+.target p {
+  font-size: 20px ;
+  padding: 0 150px;
 }
 .education {
   width: 100%;
@@ -1013,6 +1025,8 @@ p {
   max-width: 1500px;
   padding: 0px;
   background-color: #fff5f5;
+  font-size: 20px ;
+  margin: auto;
 }
 
 .education-left {
@@ -1025,8 +1039,12 @@ p {
 }
 .education-right {
   width: 50%;
-  margin: 1px;
-  font-size: 16px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.education-right ul li{
+  margin: 10px 0;
 }
 .education-left img {
   width: 70%;
