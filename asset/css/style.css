@@ -1131,7 +1131,6 @@ p {
   border: 1px solid #fff5f5;
   text-align: center;
   background-color:#fff;
-
 }
 
 .liking p {
@@ -1145,7 +1144,7 @@ p {
   border: 1px solid #fff5f5;
   width: 100%;
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 .icon a {
   color:rgba(0, 0, 0, 0.6);
@@ -1154,17 +1153,24 @@ p {
 }
 .icon a i {
   font-size: 55px;
+  line-height: 45px;
 }
 .fa-facebook-official {
   color:royalblue;
 }
-
 .fa-facebook-official:hover {
-  background-color: coral;
+  color:#184e77;
 }
+
 .fa-instagram {
   color: brown;
 }
+.fa-instagram:hover {
+  color: #7b2cbf;
+}
 .fa-twitter {
   color:#0466c8;
+}
+.fa-twitter:hover {
+  color:#4cc9f0;
 }
