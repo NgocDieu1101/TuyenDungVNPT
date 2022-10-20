@@ -1035,7 +1035,7 @@ p {
 }
 .education-left p {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 20px;
 }
 .education-right {
   width: 50%;
@@ -1058,30 +1058,34 @@ p {
   padding: 0px;
   background-color: #fff;
   display: flex;
+  margin: auto;
 }
 .experience-left {
-  width: 66%;
-  margin: 28px;
-  margin-top: 80px;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+
 
 }
 .experience p {
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 40px;
 }
 
 .experience ul li {
-  margin-left: 40px;
+  margin: 10px 0;
+  font-size: 20px;
+  margin-left: 30px;
 }
 
 .experience-right {
-  width: 34%;
-  margin: 1px;
+  width: 40%;
   display: contents;
-  font-size: 16px;
 }
 .experience-right img {
-  width: 30%;
+  width: 50%;
+  max-width: 467px;
 }
 
 .skill {
@@ -1092,30 +1096,34 @@ p {
   max-width: 1500px;
   padding: 0px;
   background-color: #fff5f5;
+  margin: auto;
 }
 
 .skill-left {
   width: 50%;
-
 }
-.skill-left p {
+.skill-right p {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 20px;
+  color:brown;
 }
 
-.skill-left p ul li {
-  margin-bottom: 20px;
-  font-size: 16px;
-}
 .skill-right {
   width: 50%;
-  margin: 1px;
-  font-size: 16px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  
+}
+.skill-right ul li{
+  margin: 10px 0;
+  font-size: 20px;
 }
 .skill-left img {
-  width: 50%;
+  width: 70%;
   margin-right: 0px;
 }
+
 
 
 .liking {
@@ -1123,4 +1131,40 @@ p {
   border: 1px solid #fff5f5;
   text-align: center;
   background-color:#fff;
+
+}
+
+.liking p {
+  font-size: 20px;
+}
+.liking p:last-child {
+  padding-bottom: 25px;
+}
+
+.icon {
+  border: 1px solid #fff5f5;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.icon a {
+  color:rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  
+}
+.icon a i {
+  font-size: 55px;
+}
+.fa-facebook-official {
+  color:royalblue;
+}
+
+.fa-facebook-official:hover {
+  background-color: coral;
+}
+.fa-instagram {
+  color: brown;
+}
+.fa-twitter {
+  color:#0466c8;
 }
