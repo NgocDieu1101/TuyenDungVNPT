@@ -25,6 +25,7 @@ body{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
 /* tất cả các class có tên bắt đầu là col-1*/
 [class*="col-"] {
 float: left;
@@ -90,11 +91,16 @@ padding-top: 30px;
     .container {
       max-width: 720px !important;
     }
+
 }
   .container {
     max-width: 1170px;
     margin: 0 auto
   }
+
+
+
+
 
 
 .container {
@@ -1035,7 +1041,7 @@ padding-top: 30px;
 
 .home-left ul li {
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 22px;
 }
 .home-right {
   width: 50%;
@@ -1421,6 +1427,133 @@ p {
   margin: 12px 0;
 }
 
+  /* TABLET */
+@media screen and (max-width:769px) {
+  .home-right img {
+    max-width: 100%;
+  }
+  .home-right {
+    display: block;
+  }
+  .home-left ul li {
+    font-size: 16px;
+  }
+  .home-left p {
+    font-size: 18px;
+  }
+  .education-left {
+    max-width: 100%;
+  }
+  .education-left img {
+    width: 100%;
+  }
+  .education-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .education-right p {
+    font-size: 18px;
+  }
+  .education-right ul li {
+    font-size: 16px;
+  }
+  .experience-left p {
+    font-size: 18px;
+  }
+  .experience-left ul li {
+    font-size: 16px;
+  }
+  .experience-right {
+    max-width: 100%;
+  }
+  .skill-left {
+    max-width: 100%;
+  }
+  .skill-left img {
+    width: 100%;
+  }
+  .skill-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill-right p {
+    font-size: 18px;
+  }
+  .skill-right ul li {
+    font-size: 16px;
+  }
+  .liking p {
+    font-size: 18px;
+  }
 
+}
 
+/* Mobile */
+
+@media screen and (max-width:376px) {
+  .home {
+    flex-wrap: wrap;
+  }
+  .home-left {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  .home-left ul li {
+    font-size: 14px;
+  }
+  .home-right {
+    width: 100%;
+  }
+  .target p {
+    font-size: 16px;
+    padding-inline: 20px;
+  }
+  .education {
+    flex-wrap: wrap;
+  }
+  .education-left {
+    width: 100%;
+  }
+  .education-right {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  
+  .education-right p {
+    font-size: 16px;
+  }
+  .education-right ul li {
+    font-size: 14px;
+  }
+  .experience {
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+  }
+  .experience-left,
+  .experience-right {
+    width: 100%
+  }
+  .experience-left {
+    padding: 30px 10px;
+  }
+  .experience-right img {
+    max-width: 100%;
+    width: 100%;
+
+  }
+  .skill {
+    flex-wrap: wrap;
+  }
+  .skill-left,
+  .skill-right {
+    width: 100%;
+  }
+  .skill-left img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .skill-right {
+    padding: 30px 10px;
+  }
+}
 
