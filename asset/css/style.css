@@ -754,6 +754,58 @@ padding-top: 30px;
 .item-job-sub{
   width: 100%;
   padding: 0px 115px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-job-sub-left {
+  width: 85%;
+
+}
+
+.item-job-sub-right{
+  width: 15%;
+}
+
+.item-job-sub-right #btn-ung-tuyen{
+  text-decoration: none;
+  background-color: #023e8a;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 24px;
+  display:block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-job-sub-right #btn-ung-tuyen:hover{
+  background-color: #fff;
+  color: #023e8a;
+  border: 1px solid #023e8a
+}
+
+.item-job-sub-left .list-ung-tuyen{
+  display:flex;
+  align-items: center;
+}
+
+.item-job-sub-left .list-ung-tuyen .item-ung-tuyen-avatar img {
+  width: 40px;
+  height: 40px;
+}
+
+.ungtuyen-text{
+ font-size: 18px;
+ font-weight: 700;
+ margin-right: 15px;
+}
+
+.item-job-sub-left .list-ung-tuyen .item-ung-tuyen-avatar{
+  margin: 0 15px;
+  text-decoration: none;
 }
 
 .cancel{

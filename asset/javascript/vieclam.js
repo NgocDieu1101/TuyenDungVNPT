@@ -8,12 +8,16 @@ $(document).on('ready', function () {
   var jobID4 = $('#job4')
   var jobID5 = $('#job5')
   var jobID6 = $('#job6')
- 
+  var hiddenSub = 'hidden-sub'
+  var showSub = 'show-sub'
+
   function openSubItemParent(idp) {
     var btnSubParent = idp.find('#btn-detail')
     var hiddenSubParent = 'hidden-parent'
     var showSubParent = 'show-parent'
     var itemSubParent = idp.find('.item-job-sub')
+
+
     btnSubParent.on('click', () => {
       if(itemSubParent.hasClass('hidden-parent')){
         itemSubParent.addClass(showSubParent)
@@ -32,10 +36,9 @@ $(document).on('ready', function () {
   function openSubItemJob(id,jobId) {
     var itemID = jobId.find(id)
     var btnSub = itemID.find('#btn-open-sub')
-    var hiddenSub = 'hidden-sub'
-    var showSub = 'show-sub'
     var itemSubChild = itemID.find('.item-job-child-list-1')
-    console.log(itemSubChild)
+
+    
     btnSub.on('click', () => {
       if(itemSubChild.hasClass('hidden-sub')){
         itemSubChild.addClass(showSub)
@@ -47,7 +50,31 @@ $(document).on('ready', function () {
         itemSubChild.addClass(hiddenSub)
       }
     })
+
+    
   }
+
+  function openDanhSachUngTuyen(jobId){
+    var btnUngTuyen = jobId.find('#btn-ung-tuyen')
+    var listUngTuyen = jobId.find('.list-ung-tuyen')
+
+    btnUngTuyen.on('click', () => {
+        if(listUngTuyen.hasClass('hidden-sub')){
+          listUngTuyen.addClass(showSub)
+          listUngTuyen.removeClass(hiddenSub)
+        } else {
+          listUngTuyen.removeClass(showSub)
+          listUngTuyen.addClass(hiddenSub)
+        }
+      })
+  }
+
+  openDanhSachUngTuyen(jobID1)
+  openDanhSachUngTuyen(jobID2)
+  openDanhSachUngTuyen(jobID3)
+  openDanhSachUngTuyen(jobID4)
+  openDanhSachUngTuyen(jobID5)
+  openDanhSachUngTuyen(jobID6)
 
   openSubItemJob(subMoTaClass,jobID1)
   openSubItemJob(subMoTaClass,jobID2)
