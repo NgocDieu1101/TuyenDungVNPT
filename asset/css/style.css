@@ -1518,6 +1518,9 @@ p {
   .experience-right {
     max-width: 100%;
   }
+  .experience-right img{
+    max-width: 100%;
+  }
   .skill-left {
     max-width: 100%;
   }
@@ -1538,6 +1541,78 @@ p {
     font-size: 18px;
   }
 
+  .bg-cv3-img img {
+    max-width: 100%;
+  }
+  .bg-cv3-text {
+    text-align: center;
+    top: 130px;
+    
+  }
+  .bg-cv3-text p {
+    text-align: center;
+    
+  }
+  .bg-cv3-text ul li {
+    
+  }
+  .education-left-cv3 {
+    max-width: 100%;
+  }
+  .education-left-cv3 img {
+    width: 100%;
+  }
+  .education-right-cv3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+  }
+  .education-right-cv3 p {
+    font-size: 18px;
+  }
+  .education-right-cv3 ul li {
+    font-size: 16px;
+  }
+  .experience-left-cv3 {
+    max-width: 100%;
+    margin-right: 20px;
+  }
+  .experience-left-cv3 p {
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-bottom: 0px;
+  }
+  .experience-left-cv3 ul li {
+    font-size: 16px;
+  }
+  .experience-right-cv3 {
+    max-width: 100%;
+  }
+  .experience-right-cv3 img {
+    max-width: 50%;
+  }
+  .skill-left-cv3 {
+    max-width: 100%;
+  }
+  .skill-left-cv3 img {
+    width: 100%;
+  }
+  .skill-right-cv3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill-right-cv3 p {
+    font-size: 18px;
+  }
+  .skill-right-cv3 ul li {
+    font-size: 16px;
+  }
+  .target_cv3 p {
+    padding: 10px;
+  }
+  .liking-cv3 p {
+    font-size: 18px;
+  }
 }
 
 /* Mobile */
@@ -1583,7 +1658,7 @@ p {
   }
   .experience-left,
   .experience-right {
-    width: 100%
+    width: 100%;
   }
   .experience-left {
     padding: 30px 10px;
@@ -1591,7 +1666,6 @@ p {
   .experience-right img {
     max-width: 100%;
     width: 100%;
-
   }
   .skill {
     flex-wrap: wrap;
@@ -1606,6 +1680,85 @@ p {
   }
   .skill-right {
     padding: 30px 10px;
+  }
+  /* CV3 */
+  .bg-cv3-img img {
+    width: 100%;
+  }
+  .bg-cv3-text {
+    top: 0;
+    padding: 45px;
+  }
+  .bg-cv3-text p {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .bg-cv3-text ul li {
+    font-size: 15px;
+    display: table-header-group;
+  }
+
+  .education_cv3 {
+    flex-wrap: wrap;
+  }
+  .education-left-cv3 {
+    width: 100%;
+  }
+  .education-right-cv3 {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  
+  .education-right-cv3 p {
+    font-size: 18px;
+  }
+  .education-right-cv3 ul li {
+    font-size: 15px;
+  }
+  .experience_cv3 {
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+  }
+  .experience-left-cv3,
+  .experience-right-cv3 {
+    width: 100%
+  }
+  .experience-right-cv3 img {
+    max-width: 100%;
+  }
+  .experience-left-cv3 {
+    padding: 20px 10px;
+  }
+  .skill_cv3 {
+    flex-wrap: wrap;
+  }
+  .skill-left-cv3,
+  .skill-right-cv3 {
+    width: 100%;
+  }
+  .skill-right-cv3 {
+    padding: 30px 10px;
+  }
+  .target_cv3 p {
+    font-size: 14px;
+    padding-inline: 20px;
+  }
+  .liking-cv3-img img {
+    width: 100%;
+  }
+  .liking-cv3-text {
+    top: 0;
+    width: 100%;
+    left: 30px;
+  }
+  .liking_cv3 p {
+    font-size: 16px;
+    margin: 20px;
+  }
+  .liking_cv3 ul li {
+    font-size: 14px;
+    display: table-footer-group;
   }
 }
 
