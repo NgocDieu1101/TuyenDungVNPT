@@ -1532,6 +1532,15 @@ p {
     z-index: 31
   }
 
+  #videoHome,
+  .background-video img,
+  .background-video{
+    width: 100%;
+  }
+
+
+
+
   .head2 .bar-menu .fa-bars,
   .head2 .bar-menu .fa-times{
     font-size: 20px;
@@ -1904,6 +1913,15 @@ p {
   }
   .home-right {
     width: 100%;
+  }
+
+    #videoHome{
+    display:block;
+    height: auto;
+  }
+
+  .banner .video{
+    height: auto;
   }
   .target p {
     font-size: 16px;
