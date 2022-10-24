@@ -1083,6 +1083,7 @@ padding-top: 30px;
   border: 1px solid #fff5f5;
   text-align: center;
   font-size: 16px;
+  background-color: #fcf7f1;
 }
 .home {
   width: 100%;
@@ -1091,7 +1092,7 @@ padding-top: 30px;
   border: 1px solid #fff5f5;
   max-width: 1500px;
   padding: 0px;
-  background-color: #fff5f5;
+  background-color: #f0deca;
   /* margin-top: 50px; */
 }
 .home-left {
@@ -1117,12 +1118,79 @@ padding-top: 30px;
   margin-right: 0px;
   margin-left: auto;
 }
+
+.animation img {
+  width: 150px;
+}
+.animation-cv1 {
+  position: relative;
+  animation: animation-cv1 2s infinite ease-in-out;
+}
+
+@keyframes animation-cv1 {
+ 0% {left: 0;}
+ 50% {left:70px;}
+ 100% {left: 0;}
+ /* from {transform: rotate(0);}
+ to {transform: rotate(360deg);} */
+}
+
+
+.animation2 img {
+  width: 60px;
+}
+.animation-cv2 {
+  position: relative;
+  animation: animation-cv2 2s infinite linear;
+}
+@keyframes animation-cv2 {
+  /* 0% {left: 0;}
+  50% {left:70px;}
+  100% {left: 0;}  */
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+ }
+
+ .animation3 img {
+  width: 60px;
+}
+.animation-cv3 {
+  position: relative;
+  animation: animation-cv3 4s infinite ease-in-out;
+}
+@keyframes animation-cv3 {
+  0% {top: 0;left:0;}
+  /* 25% {top:0;left: 100px;} */
+  50% {top: 100px;left: 100px;}
+  /* 75% {top: 100px;left:0;} */
+  100% {top: 0;left:0;} 
+
+ }
+
+ .animation4 img {
+  width: 50px;
+}
+.animation-cv4 {
+  position: relative;
+  animation: animation-cv4 3s infinite ease-in-out;
+}
+
+@keyframes animation-cv4 {
+  0% {top: 0;right:0;}
+  /* 25% {top:0;right: 100px;} */
+  50% {top: 70px;right: 50px;}
+  /* 75% {top: 100px;right:0;} */
+  100% {top: 0;right:0;} 
+}
+
+
+
 .target {
   padding: 50px 0;
   width: 100%;
   border: 1px solid #fff5f5;
   text-align: center;
-  background-color:#fff;
+  background-color:#fcf7f1;
   font-size: 20px;
 }
 
@@ -1137,7 +1205,7 @@ padding-top: 30px;
   border: 1px solid #fff5f5;
   max-width: 1500px;
   padding: 0px;
-  background-color: #fff5f5;
+  background-color: #f0deca;
   font-size: 20px ;
   margin: auto;
 }
@@ -1171,7 +1239,7 @@ padding-top: 30px;
   border: 1px solid #fff5f5;
   max-width: 1500px;
   padding: 0px;
-  background-color: #fff;
+  background-color: #fcf7f1;
   display: flex;
   margin: auto;
 }
@@ -1210,7 +1278,7 @@ padding-top: 30px;
   border: 1px solid #fff5f5;
   max-width: 1500px;
   padding: 0px;
-  background-color: #fff5f5;
+  background-color: #f0deca;
   margin: auto;
 }
 
@@ -1246,7 +1314,7 @@ padding-top: 30px;
   width: 100%;
   border: 1px solid #fff5f5;
   text-align: center;
-  background-color:#fff;
+  background-color:#fcf7f1;
 }
 
 .liking p {
@@ -1261,7 +1329,7 @@ padding-top: 30px;
   width: 100%;
   text-align: center;
   padding: 50px 0;
-  background-color: #fff5f5;
+  background-color: #f0deca;
 }
 .icon a {
   color:rgba(0, 0, 0, 0.6);
@@ -1715,9 +1783,7 @@ p {
   }
   .item-choice-content {
     width: 100%;
-
   }
-
   .footer .logo {
     width: 100%;    
   }
@@ -2150,6 +2216,9 @@ p {
   .gt-content {
     margin-top: 15px;
   }
+
+  /* quy định */
+
   .quydinh-detail {
     padding: inherit;
   }
@@ -2163,6 +2232,8 @@ p {
   .quydinh-content {
     margin-top: 15px;
   }
+
+  /* Liên hệ */
   .lienhe-title-bottom {
     width: 53%;
   }
@@ -2176,5 +2247,91 @@ p {
   .lienhe-detail {
     padding: 10px;
   }
+
+  /* Việc làm */
+
+  .item-job .item-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .item-job-address {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .item-job-time {
+    width: 25%;
+  }
+  .item-job-description {
+    width: 100%;
+    font-size: 14px;
+  }
+  .item-job-location {
+    width: 100%;
+    margin: 0px 0 10px 0;
+    padding:10px;
+  }
+
+  .item-job-sub .item-job-sub-child-1 .item-job-child-title h4 {
+    font-size: 15px;
+  }
+  .item-job-country {
+    width: 100%;
+    margin: 10px 0;
+    padding:10px;
+    
+  }
+  .item-job-timeline {
+    width: 100%;
+    margin: 10px 0  0 0;
+    padding:10px;
+  }
+  .item-job .show-parent {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .item-job-sub .item-job-sub-child-1:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .item-job-view {
+    margin: -18px;
+  }
+  .item-job .show-parent
+ {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .item-job-sub-left {
+    width: 100%;
+    padding: 0px;
+  }
+  .item-job-sub-right {
+    width: 100%;
+    max-width: 100%;
+  }
+  .show-parent .show-sub {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .item-job-time h4 {
+    font-size: 14px;
+  }
+  .item-job-view a{
+    padding: 5px;
+    font-size: 15px;
+  }
+  .item-job-sub-right #btn-ung-tuyen {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+  .ungtuyen-text {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+
 }
 
