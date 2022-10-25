@@ -1,4 +1,4 @@
-// Hai nút icon chuyển đổi hình ảnh
+
 $(document).on('ready', function () {
   var subMoTaClass = $('.mota')
   var subYeuCauClass = $('.yeucau')
@@ -11,6 +11,7 @@ $(document).on('ready', function () {
   var hiddenSub = 'hidden-sub'
   var showSub = 'show-sub'
 
+  //Thanh menu
   var btnHeader = $('.btn-menu-bar')
   var showMenu = 'show-menu-right'
   btnHeader.on('click', ()=> {
@@ -25,7 +26,7 @@ $(document).on('ready', function () {
     }
   })
 
-
+//NÚT CHI TIẾT / ĐÓNG
   function openSubItemParent(idp) {
     var btnSubParent = idp.find('#btn-detail')
     var hiddenSubParent = 'hidden-parent'
@@ -48,6 +49,7 @@ $(document).on('ready', function () {
     })
   }
 
+  // Hai nút icon XOAY mô tả và yêu cầu công việc
   function openSubItemJob(id,jobId) {
     var itemID = jobId.find(id)
     var btnSub = itemID.find('#btn-open-sub')
@@ -68,6 +70,8 @@ $(document).on('ready', function () {
 
     
   }
+
+  //NÚT ỨNG TUYỂN
 
   function openDanhSachUngTuyen(jobId){
     var btnUngTuyen = jobId.find('#btn-ung-tuyen')

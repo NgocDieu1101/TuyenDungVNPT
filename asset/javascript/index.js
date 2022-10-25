@@ -37,7 +37,7 @@ $(document).on('ready', function () {
     }
   })
 });
-
+//Thanh menu
   var btnHeader = $('.btn-menu-bar')
   var showMenu = 'show-menu-right'
   btnHeader.on('click', ()=> {

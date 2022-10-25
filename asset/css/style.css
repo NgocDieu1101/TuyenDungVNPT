@@ -100,10 +100,6 @@ padding-top: 30px;
   }
 
 
-
-
-
-
 .container {
   width: 100%;
   overflow: hidden;
@@ -636,7 +632,7 @@ padding-top: 30px;
 }
 
 .list-job {
-  margin: 5px 10px;
+  margin: 20px 10px;
 }
 .item-job {
   flex-direction: column;
@@ -723,7 +719,7 @@ padding-top: 30px;
 
 .item-job-country i {
   margin-right: 10px;
-  color:#8c90d9e6;
+  color:sandybrown;
 }
 
 .item-job-timeline {
@@ -1076,7 +1072,7 @@ padding-top: 30px;
 }
 
 .cv .title-colors{
-  color: #ef233c
+  color: brown;
 }
 .introducation {
   width: 100%;
@@ -1393,7 +1389,7 @@ padding-top: 30px;
 }
 .bg-cv3-text ul li
 {
-  font-size: 20px;
+  font-size: 25px;
   margin: 30px 310px;
   list-style-type: none;
 }
@@ -1498,6 +1494,7 @@ padding-top: 30px;
   display:flex;
   justify-content:center;
   flex-direction: column;
+  padding: 20px;
   
 }
 .skill-right-cv3 ul li{
@@ -1606,9 +1603,6 @@ p {
     width: 100%;
   }
 
-
-
-
   .head2 .bar-menu .fa-bars,
   .head2 .bar-menu .fa-times{
     font-size: 20px;
@@ -1627,6 +1621,8 @@ p {
   .home-left p {
     font-size: 18px;
   }
+
+  /* CV */
   .education-left {
     max-width: 100%;
   }
@@ -1675,6 +1671,23 @@ p {
     font-size: 18px;
   }
 
+  /* CV3 */
+
+  .bg-cv3-text {
+    left:0;    
+  }
+  .bg-cv3-text ul {
+    padding: 30px 100px;
+    
+   
+  }
+  .bg-cv3-text ul li {
+    display: table-header-group;
+    text-align: left;
+    font-size: 20px;
+    
+    
+  }
   .bg-cv3-img img {
     max-width: 100%;
   }
@@ -1687,9 +1700,7 @@ p {
     text-align: center;
     
   }
-  .bg-cv3-text ul li {
-    
-  }
+
   .education-left-cv3 {
     max-width: 100%;
   }
@@ -1747,6 +1758,18 @@ p {
   .liking-cv3 p {
     font-size: 18px;
   }
+  .liking-cv3-text {
+    left:0;    
+  }
+  .liking-cv3-text ul {
+    padding: 30px 100px;
+   
+  }
+  .liking-cv3-text ul li {
+    display: table-header-group;
+    text-align: left;
+    
+  }
 
   /* Index */
 
@@ -1800,6 +1823,15 @@ p {
   .list-icon {
     margin-bottom: 10px;
   }
+  .list p,
+  .connect p {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .list-address p {
+    font-size: 14px;
+    font-weight: 350;
+  }
   
 
 
@@ -1811,6 +1843,7 @@ p {
   .quydinh-detail {
     width: 100%;
     margin: 0;
+    padding: 30px 0;
   }
   .quydinh-left {
     width: 100%;
@@ -1835,6 +1868,7 @@ p {
   .gt { 
     width: 100%;
     margin: 0;
+    padding: 30px 0px;
   }
   .gt-left {
     width: 100%;
@@ -1989,6 +2023,8 @@ p {
   .banner .video{
     height: auto;
   }
+
+  /* CV */
   .target p {
     font-size: 16px;
     padding-inline: 20px;
@@ -2018,8 +2054,11 @@ p {
   .experience-right {
     width: 100%;
   }
+  .experience-left ul li {
+    padding: 0px 7px;
+  }
   .experience-left {
-    padding: 30px 10px;
+    padding: 0;
   }
   .experience-right img {
     max-width: 100%;
@@ -2049,13 +2088,17 @@ p {
     top: 0;
     padding: 45px;
   }
+  .bg-cv3-text ul {
+    padding: 10px;
+  }
   .bg-cv3-text p {
     font-size: 14px;
     width: 100%;
-    margin-bottom: 10px;
+    margin: 0 5px;
+    padding: 0 30px;
   }
   .bg-cv3-text ul li {
-    font-size: 15px;
+    font-size: 14px;
     display: table-header-group;
   }
 
@@ -2084,12 +2127,18 @@ p {
   .experience-right-cv3 {
     width: 100%
   }
+
+  .experience-left-cv3 p {
+    padding: 0px;
+    padding-right: 30px;
+  }
+  .experience-left-cv3 ul li {
+    padding-right: 30px;
+  }
   .experience-right-cv3 img {
     max-width: 100%;
   }
-  .experience-left-cv3 {
-    padding: 20px 10px;
-  }
+
   .skill_cv3 {
     flex-wrap: wrap;
   }
@@ -2100,9 +2149,12 @@ p {
   .skill-right-cv3 {
     padding: 30px 10px;
   }
+  .target_cv3 {
+    padding: 0px;
+    
+  }
   .target_cv3 p {
-    font-size: 14px;
-    padding-inline: 20px;
+    font-size: 15px;
   }
   .liking-cv3-img img {
     width: 100%;
@@ -2116,9 +2168,14 @@ p {
     font-size: 16px;
     margin: 20px;
   }
+  .liking_cv3 ul {
+    padding: 0 30px;
+    float: right;
+  }
   .liking_cv3 ul li {
     font-size: 14px;
     display: table-footer-group;
+    
   }
 
   /* Index */
@@ -2249,17 +2306,20 @@ p {
   }
 
   /* Việc làm */
-
+  .item-image-job img {
+    height: 40px;
+    border-radius: 20%;
+  }
   .item-job .item-container {
     width: 100%;
-    padding: 10px;
+    padding: 10px 50px;
   }
   .item-job-address {
     flex-wrap: wrap;
     width: 100%;
   }
   .item-job-time {
-    width: 25%;
+    width: 35%;
   }
   .item-job-description {
     width: 100%;
